@@ -1,0 +1,66 @@
+<!-- 
+
+   A simple temperature converter that accept temperature in any unit and convert to any other unit ( celcius, fahrenheit, kelvin ).
+
+ -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Temperature Converter</h2>
+      <br />
+      From &nbsp;
+
+      <select name="" id="first">
+        <option value="C">Celcius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+
+      &nbsp;&nbsp;&nbsp;&nbsp; To&nbsp;&nbsp;
+
+      <select name="" id="second">
+        <option value="C">Celcius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+
+      <br />
+      <br />
+      <br />
+
+      <label for="temperature">Enter the temperature : </label>
+      <input type="number" name="" id="temperature" />
+
+      <br />
+      <br />
+      <br />
+
+      <input
+        type="button"
+        value="CONVERT"
+        onclick="convert()"
+        style="padding: 4px 5px; font-weight: 900"
+      />
+
+      <br />
+      <br />
+
+      <div class="result">Converted Temperature</div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+
+<!-- _________________________ SC [ C : Star ] _________________________ -->
